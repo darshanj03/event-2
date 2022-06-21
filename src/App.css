@@ -1,0 +1,34 @@
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-right {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    float: right;
+}
+
+.logo {
+    width: 400px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.up-icon {
+    padding: 100px;
+}
+
+.error {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    * {
+        display: none;
+    }
+}
